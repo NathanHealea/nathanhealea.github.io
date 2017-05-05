@@ -1,0 +1,27 @@
+{
+  "name": "nathanhealea.github.io",
+  "version": "1.0.0",
+  "description": "Persoanl github.io website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "boostrap": "^1.0.0",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanhealea/nathanhealea.github.io.git"
+  },
+  "author": "Nathan Healea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanhealea/nathanhealea.github.io/issues"
+  },
+  "homepage": "https://github.com/nathanhealea/nathanhealea.github.io#readme"
+}
