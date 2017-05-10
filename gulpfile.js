@@ -14,8 +14,16 @@ gulp.task('copy', function() {
 
 	// Jquery
 	 gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
-        .pipe(gulp.dest('assets/vendor/jquery'))
-	}	
+        .pipe(gulp.dest('assets/vendor/jquery'))	
+
+    // Font Awesome styles
+     gulp.src(['node_modules/font-awesome/css/*', '!**/*.map'])
+        .pipe(gulp.dest('assets/vendor/font-awesome/css'))
+
+        // Font Awesome styles
+     gulp.src(['node_modules/font-awesome/fonts/*'])
+        .pipe(gulp.dest('assets/vendor/font-awesome/fonts'))
+    }
 )
 
 // Run everything
