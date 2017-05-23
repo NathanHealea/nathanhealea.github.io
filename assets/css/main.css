@@ -1,12 +1,10 @@
 /* ---------------------------------------------- /*
  * General
- /* ---------------------------------------------- */
-
-
+/* ---------------------------------------------- */
 
 /* ---------------------------------------------- /*
  * Typography
- /* ---------------------------------------------- */
+/* ---------------------------------------------- */
 
 @font-face {
     font-family: segoeui;
@@ -63,10 +61,17 @@ a:hover{
     text-decoration: none;
 }
 
+/* ---------------------------------------------- /*
+ * General Structure
+/* ---------------------------------------------- */
+section{
+  padding: 160px 0px;
+}
+
 
 /* ---------------------------------------------- /*
  * General styles
- /* ---------------------------------------------- */
+/* ---------------------------------------------- */
  .section{
  	position: relative;
  }
@@ -85,9 +90,13 @@ a:hover{
     font-size: 80px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 /* ---------------------------------------------- /*
  * Navigation
- /* ---------------------------------------------- */
+/* ---------------------------------------------- */
 
  .navbar-custom {
 	background: none;
@@ -102,8 +111,8 @@ a:hover{
 	color:#000000;
 }
 
-.navbar-custom .nav li a:hover, 
-.navbar-custom .nav li a:focus, 
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
 	background: none;
 	outline: 0;
@@ -122,7 +131,17 @@ a:hover{
  * Intro
 /* ---------------------------------------------- */
  #intro{
- 	margin-top: 50px;
+   padding: 260px 0 160px 0;
+ 	 margin-top: 55px;
+   text-align: center;
+ }
+
+ #intro div.container {
+    /*height:100vh;*/
+    /*padding: 260px 0 160px 0;*/
+ }
+ #intro h2{
+
  }
 
 
@@ -152,4 +171,3 @@ a:hover{
 #social-media a{
     padding: 5px;
 }
-
