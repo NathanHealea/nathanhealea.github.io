@@ -70,6 +70,9 @@ a:hover{
 /* ---------------------------------------------- /*
  * General styles
 /* ---------------------------------------------- */
+.heighlighted-text {
+    color: #52BCAD !important; 
+}
 .center-screen {
     display: flex;
     flex-direction: column;
@@ -78,3 +81,14 @@ a:hover{
     text-align: center;
     min-height: 100vh;
   }
+
+/* ---------------------------------------------- /*
+ * Footer Styles
+/* ---------------------------------------------- */
+#social-media {
+    padding-top: 30px;
+}
+
+#social-media a{
+    padding: 15px;
+}
