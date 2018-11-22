@@ -2,6 +2,7 @@
   <div id="app">
     <div class="container">
       <div class="alert alert-success">Bootstrap!!</div>
+      <i class="fas fa-plus-circle" ></i>
     </div>
   </div>
 </template>
