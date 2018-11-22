@@ -1,28 +1,27 @@
 {
-  "name": "nathanhealea.github.io",
-  "version": "1.0.0",
-  "description": "Persoanl github.io website",
-  "main": "gulpfile.js",
+  "name": "nathanhealea.github.com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.2.1"
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nathanhealea/nathanhealea.github.io.git"
-  },
-  "author": "Nathan Healea",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nathanhealea/nathanhealea.github.io/issues"
-  },
-  "homepage": "https://github.com/nathanhealea/nathanhealea.github.io#readme"
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.5",
+    "@vue/cli-service": "^3.1.4",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
 }
