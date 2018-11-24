@@ -1,29 +1,27 @@
 <template>
-  <div id="app">
-    <div class="container">
-      <div class="alert alert-success">Bootstrap!!</div>
-      <i class="fas fa-plus-circle" ></i>
-    </div>
-  </div>
+<div v-if="!isMaintenance">
+  <!-- main app components!-->
+</div>
+<div v-else>
+  <maintenance></maintenance>
+</div>
 </template>
 
-<style lang="scss">
-@import "styles/main.scss";
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+import maintenance from '@/views/Maintenance'
+export default {
+  components: {
+    maintenance
+  },
+  data() {
+    return {
+      isMaintenance: process.env.VUE_APP_MAINTENANCE
     }
   }
 }
+</script>
+
+
+<style lang="scss">
+@import "styles/main.scss";
 </style>

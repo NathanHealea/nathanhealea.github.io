@@ -1,8 +1,8 @@
 <template>
-  <secion id="home">
-    <h1>Hello World </h1>
-    test
-  </secion>
+<secion id="home">
+  <h1>Hello World </h1>
+  test
+</secion>
 </template>
 
 <script>
