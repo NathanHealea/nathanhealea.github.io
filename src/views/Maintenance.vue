@@ -18,25 +18,31 @@
 				</div>
 			</div>
 			<div id="social-media" class="row">
+				<!-- GitHub !-->
+				<div class="col">
+					<a href="https://github.com/NathanHealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x"></i></span></a>
+				</div>
+				<!-- Codepen !-->
+				<div class="col">
+					<a href="https://codepin.io/NathanHealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-codepen fa-stack-1x"></i></span></a>
+				</div>
 				<!-- Facebook !-->
 				<div class="col">
 					<a href="https://www.facebook.com/nathan.healea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-facebook-f fa-stack-1x"></i></span></a>
 				</div>
-				<div class="col">
-					<a href="https://github.com/NathanHealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x"></i></span></a>
-				</div>
-				<div class="col">
-					<a href="https://codepin.io/NathanHealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-codepen fa-stack-1x"></i></span></a>
-				</div>
+				<!-- LinkedIn !-->
 				<div class="col">
 					<a href="https://www.linkedin.com/in/nathanhealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-linkedin-in fa-stack-1x"></i></span></a>
 				</div>
+				<!-- Pintrest !-->
 				<div class="col">
 					<a href="https://www.pinterest.com/nathanhealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-pinterest-p fa-stack-1x"></i></span></a>
 				</div>
+				<!-- Instagram !-->
 				<div class="col">
 					<a href="https://www.instagram.com/nathanhealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-instagram fa-stack-1x"></i></span></a>
 				</div>
+				<!-- Twitter !-->
 				<div class="col">
 					<a href="https://twitter.com/nathanhealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x"></i>   </span></a>
 				</div>
