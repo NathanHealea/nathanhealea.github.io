@@ -24,7 +24,7 @@
 				</div>
 				<!-- Codepen !-->
 				<div class="col">
-					<a href="https://codepin.io/NathanHealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-codepen fa-stack-1x"></i></span></a>
+					<a href="https://codepen.io/NathanHealea"><span class="fa-stack fa-1x"><i class="far fa-circle fa-stack-2x"></i><i class="fab fa-codepen fa-stack-1x"></i></span></a>
 				</div>
 				<!-- Facebook !-->
 				<div class="col">
