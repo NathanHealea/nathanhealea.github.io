@@ -1,3 +1,7 @@
+body {
+    color: $primary;
+}
+
 h1, h2, h3, h4 {
     margin: .5em 0 0.5em;
     line-height: 1.2;
@@ -26,8 +30,14 @@ p {
 
 a {
     text-decoration: none;
+    transition: color .5s linear;
 }
-a:hover {
+a:hover{
     color: $secondary;
     text-decoration: none;
+    text-shadow: 0 0 2px darken($secondary, 10%);
+    & svg {
+        -webkit-filter: drop-shadow(0 0 2px darken($secondary, 5%));
+        filter: drop-shadow(0 0 2px darken($secondary, 5%));
+    }
 }
