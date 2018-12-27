@@ -1,17 +1,21 @@
 <template>
-<div v-if="!isMaintenance">
-  <!-- main app components!-->
+<div v-if="isMaintenance == true">
+  {{isMaintenance}}
+  <maintenance></maintenance>
 </div>
 <div v-else>
-  <maintenance></maintenance>
+  <!-- main app components!-->
+  <home></home>
 </div>
 </template>
 
 <script>
 import maintenance from '@/views/Maintenance'
+import home from '@/views/Home'
 export default {
   components: {
-    maintenance
+    maintenance,
+    home
   },
   data() {
     return {
