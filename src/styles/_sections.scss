@@ -1,0 +1,9 @@
+section#landing-section-wrapper,
+section#about-section-wrapper{
+    padding-top:  $nav-height;
+    height: 100vh;
+}
+
+section:nth-child(odd){
+    background-color: $secondary;
+}
