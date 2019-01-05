@@ -9,3 +9,7 @@
 .navbar-nav .nav-item.nav-link {
     text-transform: uppercase;
 }
+
+button.navbar-toggler svg {
+    color: $primary;
+}

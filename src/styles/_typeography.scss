@@ -34,11 +34,11 @@ a {
     transition: text-shadow .35s linear;
 }
 a:hover{
-    color: $secondary;
+    color: darken($secondary, 10%);
     text-decoration: none;
-    text-shadow: 0 0 2px darken($secondary, 10%);
+    text-shadow: 0 0 2px $secondary;
     & svg {
-        -webkit-filter: drop-shadow(0 0 2px darken($secondary, 5%));
-        filter: drop-shadow(0 0 2px darken($secondary, 5%));
+        -webkit-filter: drop-shadow(0 0 2px $secondary);
+        filter: drop-shadow(0 0 2px $secondary);
     }
 }
