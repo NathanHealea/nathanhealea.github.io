@@ -9,8 +9,8 @@
 <script>
 // @ is an alias to /src
 import navbar from '@/components/Navbar'
-import landing from '@/views/home/Landing'
-import about from '@/views/home/About'
+import landing from '@/views/Landing'
+import about from '@/views/About'
 
 export default {
   name: 'home',
