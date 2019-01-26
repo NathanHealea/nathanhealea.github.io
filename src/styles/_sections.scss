@@ -4,6 +4,9 @@ section#about-section-wrapper{
     height: 100vh;
 }
 
-section:nth-child(odd){
-    background-color: $secondary;
+/* * * * Landing * * * */
+
+/* * * * About * * * */
+section#about-section-wrpper [class*="col"] img {
+    width: 100%;
 }
