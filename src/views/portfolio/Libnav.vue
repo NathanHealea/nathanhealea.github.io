@@ -7,14 +7,20 @@
             </div>
         </div>
 
-        <div class="modal fade" id="libnav-modal" tabindex="-1" role="dialog" aria-labelledby="libnav-modal-label" aria-hidden="true">
+        <div class="modal modal-project fade" id="libnav-modal" tabindex="-1" role="dialog" aria-labelledby="libnav-modal-label" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="libnav-modal-label">Modal title</h5>
+                    <!-- <img src="@/assets/libnav/libnav-preview.png" class="img-fluid"/> -->
+
+                    <div class="overlay">
+                        <span><h3>LibNav</h3></span>
+                    </div>
+
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">&times;</span>
                     </button>
+
                 </div>
                 <div class="modal-body">
                     ...
@@ -35,5 +41,16 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scopped>
+.modal-header {
+    background: url(../../assets/libnav/libnav-preview.png) no-repeat 50% 0px fixed;
+   -webkit-background-size: 100% 75%;
+   -moz-background-size: 100% 75%;
+   -o-background-size: 100% 75%;
+   background-size: 100% 75%;
+
+    // background-attachment: fixed;
+    // background-position: center;
+    // background-size: cover;
+}
 </style>

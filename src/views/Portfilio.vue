@@ -5,11 +5,7 @@
     </div>
     <div class="row flex">
         <libnav></libnav>
-        <libnav></libnav>
-        <libnav></libnav>
-        <libnav></libnav>
-        <libnav></libnav>
-        <div id="project-space-holder" class="d-flex align-items-stretch col my-3">
+        <div id="project-space-holder" class="d-flex align-items-stretch col-3 my-3">
             <div  class="project-preview text-center">
                 <span><h2>Comming Soon...</h2></span>
             </div>
