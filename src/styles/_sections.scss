@@ -1,12 +1,49 @@
-section#landing-section-wrapper,
-section#about-section-wrapper{
-    padding-top:  $nav-height;
-    height: 100vh;
+section[id*="section-wrapper"] {
+  padding-top: $nav-height;
+  height: 100vh;
 }
 
-/* * * * Landing * * * */
+/* * * * Portfolio * * * */
+.project-preview {
+  position: relative;
+  cursor: pointer;
+}
 
-/* * * * About * * * */
-section#about-section-wrpper [class*="col"] img {
+.project-preview .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $secondary;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.project-preview:hover .overlay {
+  opacity: 1;
+}
+
+.project-preview .overlay span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1vh;
+  transform: translate(-50%, -50%);
+  color: $white;
+}
+
+#project-space-holder .project-preview{
     width: 100%;
+    height: 100%;
+    color:$white;
+    background-color:$primary;
+    position: relative;
+}
+#project-space-holder .project-preview span{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 1vh;
+  transform: translate(-50%, -50%);
 }

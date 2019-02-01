@@ -3,6 +3,7 @@
   <navbar></navbar>
   <landing></landing>
   <about></about>
+  <portfilio></portfilio>
 </div>
 </template>
 
@@ -11,13 +12,15 @@
 import navbar from '@/components/Navbar'
 import landing from '@/views/Landing'
 import about from '@/views/About'
+import portfilio from '@/views/Portfilio'
 
 export default {
   name: 'home',
   components: {
     navbar,
     landing,
-    about
+    about,
+    portfilio
   }
 }
 </script>
