@@ -1,11 +1,14 @@
 body {
     color: $primary;
+    background-color: $secondary;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4 {
     margin: .5em 0 0.5em;
     line-height: 1.2;
     font-weight: 300;
+    font-family: 'Baloo Bhaijaan', cursive;
 }
 
 h1 {
@@ -39,5 +42,13 @@ a:hover{
     & svg {
         -webkit-filter: drop-shadow(0 0 2px darken($secondary, 5%));
         filter: drop-shadow(0 0 2px darken($secondary, 5%));
+    }
+}
+
+#maintenance {
+    color:$secondary;
+
+    a {
+        color:$secondary
     }
 }

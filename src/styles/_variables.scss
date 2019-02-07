@@ -1,3 +1,15 @@
-/* --- Colors --- */
-$primary: #343a40;
-$secondary: #72DDC9;
+// --- Colors ---
+$primary: #394558;
+$secondary: #E7E9ED;
+
+// --- Fonts ---
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Roboto');
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot');
+  src:  url('/fonts/icomoon.eot') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf') format('truetype'),
+    url('/fonts/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
