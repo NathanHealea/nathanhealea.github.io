@@ -1,22 +1,15 @@
 // vue.config.js
+const path = require("path");
 module.exports = {
     baseUrl : process.env.NODE_ENV === 'production'
         ? '/dist/'
         : '/',
-    
-    chainWebpack: config => {
-      if(config.plugins.has('extract-css')) {
-        const extractCSSPlugin = config.plugin('extract-css')
-        extractCSSPlugin && extractCSSPlugin.tap(() => [{
-          filename: '[name].css',
-          chunkFilename: '[name].css'
-        }])
-      }
-    },
-    configureWebpack: {
-      output: {
-        filename: '[name].js',
-        chunkFilename: '[name].js'
-      }
-    }
+
+        configureWebpack: {
+            resolve: {
+              alias: {
+                './img' : path.join(__dirname, './src/styles/img/')
+              }
+            }
+        }
   }

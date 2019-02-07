@@ -60,18 +60,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#maintenance {
-				height: 100vh;
-    background-image: url("../assets/paul-gilmore-211347-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-#maintenance #maintenance-wrapper {
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-}
 </style>
