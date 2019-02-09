@@ -1,6 +1,7 @@
 
 #maintenance {
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 	background-image: url('./img/paul-gilmore-211347-unsplash.jpeg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -12,7 +13,3 @@
 	}
 }
 
-#maintenance #maintenance-wrapper {
-	position: absolute;
-	top: 0;
-}

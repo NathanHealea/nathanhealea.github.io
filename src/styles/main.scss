@@ -1,9 +1,12 @@
-// Main Stlye Sheet
+// --- Main Stlye Sheet --- //
 @import 'variables.scss';
 
-/* --- Bootstrap --- */
+// --- Bootstrap --- //
 @import 'bootstrap/scss/bootstrap.scss';
 
+// --- IconMoon --- //
+@import 'iconmoon.scss';
+
+// --- Custom Styling Sheet --- //
 @import 'typeography.scss';
 
-@import 'iconmoon.scss'

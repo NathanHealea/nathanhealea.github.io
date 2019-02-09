@@ -7,6 +7,7 @@
       <img
         src='@/assets/alternitive-nathan-healea-portfilio-logo.svg'
         atl="nathan healea alternitive portfolio logo"
+        class="img-fluid"
       />
 
       <header>
