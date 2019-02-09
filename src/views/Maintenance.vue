@@ -31,15 +31,15 @@
         >
           <!-- GitHub !-->
           <div class="col">
-            <a href="https://github.com/NathanHealea"><span class="icon-github fa-2x"></span></a>
+            <a href="https://github.com/nathanhealea"><span class="icon-github fa-2x"></span></a>
           </div>
           <!-- Codepen !-->
           <div class="col">
-            <a href="https://codepen.io/NathanHealea"><span class="icon-codepen fa-2x"></span></a>
+            <a href="https://codepen.io/nathanhealea"><span class="icon-codepen fa-2x"></span></a>
           </div>
           <!-- Facebook !-->
           <div class="col">
-            <a href="https://www.facebook.com/nathan.healea"><span class="icon-facebook fa-2x"></span></a>
+            <a href="https://www.facebook.com/nate.healea"><span class="icon-facebook fa-2x"></span></a>
           </div>
           <!-- LinkedIn !-->
           <div class="col">
