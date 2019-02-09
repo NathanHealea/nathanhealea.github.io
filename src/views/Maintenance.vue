@@ -65,12 +65,7 @@
 
 <script>
 export default {
-	name: 'maintenance',
-	methods: {
-		test() {
-			return null;
-		}
-	}
+	name: 'maintenance'
 };
 </script>
 
