@@ -6,7 +6,8 @@ module.exports = {
 	configureWebpack: {
 		resolve: {
 			alias: {
-				'./img': path.join(__dirname, './src/styles/img/')
+				'./img': path.join(__dirname, './src/styles/img/'),
+				'./styles': path.join(__dirname, './src/styles/')
 			}
 		}
 	}

@@ -1,10 +1,10 @@
 <template>
-<div v-if="!isMaintenance">
-  <!-- main app components!-->
-</div>
-<div v-else>
-  <maintenance></maintenance>
-</div>
+  <div v-if="!isMaintenance">
+    <!-- main app components!-->
+  </div>
+  <div v-else>
+    <maintenance></maintenance>
+  </div>
 </template>
 
 <script>
@@ -23,5 +23,4 @@ export default {
 
 <style lang="scss">
 @import 'styles/main.scss';
-@import 'styles/maintenance.scss';
 </style>

@@ -1,29 +1,29 @@
 <template>
-  <div id="maintenance">
-    <div
-      id="maintenance-wrapper"
-      class="text-center d-flex align-items-center flex-column justify-content-center h-100"
-    >
+  <div
+    id="maintenance"
+    class="d-flex align-items-center flex-column justify-content-center"
+  >
+    <div class="content container text-center">
       <img
         src='@/assets/alternitive-nathan-healea-portfilio-logo.svg'
         atl="nathan healea alternitive portfolio logo"
       />
+
       <header>
         <h1>Hello World, I'm Nathan Healea</h1>
         <p class="h4"><span class="rotate">Programmer Analyst | Full Stack Engineer | Web Developer | Software Engineer</span></p>
       </header>
+
       <section class="text-secondary">
         <h3 class="text-uppercase"><strong>Website Under Maintenance</strong></h3>
       </section>
+
       <footer>
         <p class="h4">Get In Touch</p>
-        <div class="row my-3">
-          <div class="col">
-            <a href="mailto:nate.healea@gmail.com.edu">
-              <p class="h4"><i class="far fa-envelope"></i> nate.healea@gmail.com</p>
-            </a>
-          </div>
-        </div>
+
+        <a href="mailto:nate.healea@gmail.com.edu">
+          <p class="h4"><i class="far fa-envelope"></i> nate.healea@gmail.com</p>
+        </a>
         <div
           id="social-media"
           class="row my-3"
@@ -61,6 +61,7 @@
       </footer>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -70,4 +71,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../styles/_variables.scss';
+@import '../styles/maintenance.scss';
 </style>
