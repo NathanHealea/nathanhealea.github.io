@@ -40,6 +40,12 @@ module.exports = {
             }
           },
           {
+            loader:'resolve-url-loader',
+            options: {
+              sourceMap: true
+            }
+          },
+          {
             // compiles Sass to CSS
             loader: 'sass-loader',
             options: {
@@ -53,7 +59,7 @@ module.exports = {
       },
       {
         // Load all images as base64 encoding if they are smaller than 8192 bytes
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|svg)$/,
         use: [
           {
             loader: 'url-loader',
