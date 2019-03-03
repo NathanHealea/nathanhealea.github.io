@@ -44,6 +44,12 @@ module.exports = {
             }
           },
           {
+            loader: 'resolve-url-loader',
+            options: {
+              sourceMap: true
+            }
+          },
+          {
             // Runs compiled CSS through postcss for vendor prefixing
             loader: 'postcss-loader',
             options: {
@@ -63,7 +69,7 @@ module.exports = {
       },
       {
         // Load all images as base64 encoding if they are smaller than 8192 bytes
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|svg)$/,
         use: [
           {
             loader: 'url-loader',
@@ -73,6 +79,19 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.(ttf|eot|woff|woff2)$/,
+        loader: 'url-loader',
+        options: {
+          // Limit at 50k. Above that it emits separate files
+          limit: 50000,
+          // url-loader sets mimetype if it's passed.
+          // Without this it derives it from the file extension
+          mimetype: 'application/font-woff',
+          // Output below fonts directory
+          name: './fonts/[name].[ext]'
+        }
       }
     ]
   },

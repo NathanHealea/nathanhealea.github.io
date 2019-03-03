@@ -6,7 +6,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "webpack-dev-server --config webpack/webpack.dev.js --mode development",
         "build": "webpack --config webpack/webpack.prod.js --mode production && mv ./dist/index.html ./index.html",
-        "preview": "npm run build && http-server dist"
+        "preview": "npm run build && http-server ./"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.5.0",
