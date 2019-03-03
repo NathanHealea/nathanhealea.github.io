@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // --- Main Stlye Sheet --- //
 @import 'variables.scss';
 
@@ -10,3 +11,15 @@
 // --- Custom Styling Sheet --- //
 @import 'typeography.scss';
 
+=======
+// -- Bulma -- // 
+@import '~bulma';
+
+// -- Icons -- //
+@import 'iconmoon';
+
+// -- Styling -- //
+@import 'global';
+@import 'hero';
+@import 'typeography';
+>>>>>>> development
