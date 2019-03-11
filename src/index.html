@@ -27,98 +27,197 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   </head>
   <body>
-    <section class="hero is-fullheight">
+    <!-- Landing -->
+    <section class="hero is-fullheight has-text-white">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1>Hello World; I'm Nathan Healea</h1>
-          <h3>Full Stack Developer</h3>
-          <img
-            class="logo"
-            src="<%= require('./assets/nathan-healea-logo-white.svg') %>"
-            alt="Nathan Healea Portfolio Logo"
-          />
-          <h4 class="is-uppercase">
-            <strong>Webiste Under Maintenance</strong>
-          </h4>
-          <h3>Contact Me</h3>
-          <a href="mailto:nate.healea@gmail.com?subject=Hello%20From%20Website"
-            ><p><span class="far fa-envelope"></span> nate.healea@gmail.com</p>
-          </a>
-            <div class="columns is-mobile is-multiline is-centered">
-              <!-- GitHub !-->
-              <div class="column">
-                <a href="https://github.com/nathanhealea"
-                  ><span class="icon-github fa-3x"></span
-                ></a>
-              </div>
-              <!-- Codepen !-->
-              <div class="column">
-                <a href="https://codepen.io/nathanhealea"
-                  ><span class="icon-codepen fa-3x"></span
-                ></a>
-              </div>
-              <!-- Facebook !-->
-              <div class="column">
-                    <a href="https://www.facebook.com/nate.healea"
-                      ><span class="icon-facebook fa-3x"></span
-                    ></a>
+            <img class="logo is-spaced"
+              src="<%= require('./assets/nathan-healea-logo-white.svg') %>"
+              alt="Nathan Healea Portfolio Logo"
+            />
+          <h1 class="title has-text-white is-spaced is-size-2-desktop is-3-tablet is-size-4-mobile">
+            Full Stack Engineer | Web Developer | Software Engineer
+          </h1>
+          <p class=" subtitle has-text-white is-size-3-desktop is-size-4-tablet is-size-5-mobile">
+            I develop applications to simplify life and work
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section
+      id="about"
+      class="section is-medium is-long is-primary has-text-centered"
+    >
+      <div class="container">
+        <h2 class="title is-spaced is-size-3-desktop is-4-tablet is-size-5-mobile">Hello World; I'm Nathan</h2>
+        <p class="subtitle is-size-4-desktop is-size-5-tablet is-size-6-mobile">
+          Since beginning my joureny as a full stack engineer, I'v developed
+          databases and parsers for research grant funded projects, REST APIs
+          for detecting proper english, web application to simplify processes
+          and track engagements, maintained databases aggergation scripts,
+          intergration multiple third party, and much more. I'm always learn to
+          expand my knowledge and look for intresting problems to solve with
+          skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section is-overlap has-text-centered">
+      <div class="container is-narrow">
+        <div class="box">
+          <div class="columns is-centered ">
+            <div class="column">
+              <p class="is-icon is-spaced"><i class="fas fa-pencil-alt fa-3x"></i></p>
+              <h3 class="title is-spaced is-size-4-desktop is-5-tablet is-size-6-mobile">Design</h3>
+              <p class="is-size-5-desktop is-6-tablet is-size-7-mobile">I value user interfaces that empower users</p>
+              <p class="list-title has-text-primary has-text-weight-bold">
+                Technologies I use:
+              </p>
+              <ul>
+                <li>HTML/HMTL5</li>
+                <li>CSS/CSS3</li>
+                <li>Javascript/jQuery</li>
+                <li>Sass</li>
+                <li>Bootstrap, Bulma</li>
+                <li>VueJs</li>
+                <li>Webpack, Gulp</li>
+              </ul>
+            </div>
+            <div class="column">
+              <p class="is-icon is-spaced"><i class="fas fa-code fa-3x"></i></p>
+              <h3 class="title is-spaced is-size-4-desktop is-5-tablet is-size-6-mobile">Develop</h3>
+              <p class="is-size-5-desktop is-6-tablet is-size-7-mobile">I write code to improve work and life</p>
+              <p class="list-title has-text-primary has-text-weight-bold">
+                Languages I speek:
+              </p>
+              <ul>
+                <li>ASP.Net Fomrs, MVC, .Net Core</li>
+                <li>C, C++ , C#</li>
+                <li>PHP</li>
+                <li>Python</li>
+                <li>Nodejs</li>
+                <li>Razor, Linq, Regex</li>
+                <li>SQL, TSQL, PL</li>
+              </ul>
+            </div>
+            <div class="column">
+              <p class="is-icon is-spaced"><i class="fas fa-book fa-3x"></i></p>
+              <h3 class="title is-spaced is-size-4-desktop is-5-tablet is-size-6-mobile">More</h3>
+              <p class="is-size-5-desktop is-6-tablet is-size-7-mobile">I learn to find solutions to complex problems</p>
+              <p class="list-title has-text-primary has-text-weight-bold">
+                Topic I study:
+              </p>
+              <ul>
+                <li>System & Software Archcture</li>
+                <li>UI Designing, UX Development</li>
+                <li>Database Structures & Desgin</li>
+                <li>Build Systems</li>
+                <li>Continuous Intergration</li>
+                <li>Version Control Stucture & Flow</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies -->
+    <!-- <section id="hobbies" class="section is-medium has-text-centered">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <p><i class="fas fa-camera fa-5x"></i></p>
+            <h3>Photography</h3>
+            <p>I collect inspiration and memories</p>
+          </div>
+
+          <div class="column">
+            <p><i class="fas fa-dumbbell fa-5x"></i></p>
+            <h3>Fitness</h3>
+            <p>I explor </p>
+          </div>
+
+          <div class="column">
+            <p><i class="fas fa-utensils fa-5x"></i></p>
+            <h3>Food</h3>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Projects -->
+    <section id="projects" class="section is-medium is-white has-text-centered">
+      <div class="container is-narrow">
+
+        <h2 class="title is-spaced is-size-3-desktop is-4-tablet is-size-5-mobile">Recent Projects</h2>
+        <p class="subtitle is-spaced is-size-4-desktop is-size-5-tablet is-size-6-mobile">My passion, joy, and skill displayed in quality applications</p>
+
+        <div class="columns is-multiline is-mobile">
+
+          <!-- Libnav -->
+          <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+            <figure class="image is-3by2">
+              <img
+                class="project-thumb"
+                src="<%= require('./assets/projects/libnav/libnav-preview.png') %>"
+              />
+              <figcaption class="is-overlay has-text-centered">
+                <h4>Libnav</h4>
+                <p>Interactive map for Oregon State University Vally Library</p>
+                <a href="" class="button is-white is-outlined"
+                >View Details</a
+              >
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- Wwrite365 -->
+          <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+            <figure class="image is-3by2">
+              <img
+                class="project-thumb"
+                src="<%= require('./assets/projects/write365/write365-preview.png') %>"
+              />
+              <figcaption class="is-overlay has-text-centered">
+                <h4>Write365</h4>
+                <p>
+                  Digitial journal to promote writting 365 words a day.
+                </p>
+                <a href="" class="button is-white is-outlined"
+                        >View Details</a
+                      >
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- Wwrite365 Research Portal -->
+          <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+              <figure class="image is-3by2">
+                <img
+                  class="project-thumb"
+                  src="<%= require('./assets/projects/write365-research-portal/write365-research-portal-preview.png') %>"
+                />
+                <figcaption class="is-overlay has-text-centered">
+                  <h4>Research Portal</h4>
+                  <p>
+                    Display analytical information for researchers of Write365 
+                  </p>
+                  <a href="" class="button is-white is-outlined"
+                        >View Details</a
+                      >
                   </div>
-              <!-- LinkedIn !-->
-              <div class="column">
-                <a href="https://www.linkedin.com/in/nathanhealea"
-                  ><span class="icon-linkedin fa-3x"></span
-                ></a>
-              </div>
-              <!-- Pintrest !-->
-              <div class="column">
-                    <a href="https://www.pinterest.com/nathanhealea"
-                      ><span class="icon-pinterest fa-3x"></span
-                    ></a>
-                  </div>
-              <!-- Instagram !-->
-              <div class="column">
-                <a href="https://www.instagram.com/nathanhealea"
-                  ><span class="icon-instagram fa-3x"></span
-                ></a>
-              </div>
-              <!-- Twitter !-->
-              <div class="column">
-                    <a href="https://twitter.com/nathanhealea"
-                      ><span class="icon-twitter fa-3x"></span
-                    ></a>
-                  </div>
-              <!-- <div class="column"><a href="https://www.behance.net/nathanhealea"><i class="fas fa-behance  circle-icon" title="Behance"></i></a></div> -->
+                </figcaption>
+              </figure>
             </div>
         </div>
       </div>
-      <div class="hero-foot has-text-centered">
-        <p>Copyright &copy; Nathan Healea 2019</p>
-        <a
-          style='color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;dispaly:block;border-radius:3px'
-          href="https://unsplash.com/@noahsilliman?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Download free do whatever you want high-resolution photos from Noah Silliman"
-          ><span style="display:inline-block;padding:2px 3px"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
-              viewBox="0 0 32 32"
-            >
-              <title>unsplash-logo</title>
-              <path
-                d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"
-              ></path></svg></span
-          ><span style="display:inline-block;padding:2px 3px"
-            >Noah Silliman</span
-          ></a
-        >
-        <a href="www.bulma.com" target="_blank" class="made-with-bulma"
-          ><img
-            src="<%= require('./assets/made-with-bulma-transparent-white.png') %>"
-            alt="Made Wiht Bulma Transparent White"
-        /></a>
-      </div>
     </section>
+
+    <!-- Contact -->
+
+    <!-- Footer -->
   </body>
 </html>

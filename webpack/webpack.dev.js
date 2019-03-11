@@ -23,7 +23,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(scss|css)$/,
+        test: /\.(sass|scss|css)$/,
         use: [
           {
             // creates style nodes from JS strings
