@@ -5,6 +5,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "webpack-dev-server --config webpack/webpack.dev.js --mode development",
+        "dev:open": "webpack-dev-server --config webpack/webpack.dev.js --mode development --hot --host 0.0.0.0 --port 8080",
         "build": "webpack --config webpack/webpack.prod.js --mode production && mv ./dist/index.html ./index.html",
         "preview": "npm run build && http-server ./"
     },
