@@ -1,27 +1,34 @@
-import { colors } from '@material-ui/core';
+// --- Imports --- //
 
+// --- Material Ui Imports --- //
+
+
+
+// --- Color Definitations --- //
 const white = '#FFFFFF';
 const black = '#000000';
 
+
+// --- Exports --- //
 export default {
   black,
   white,
   primary: {
     contrastText: white,
-    dark: colors.indigo[900],
-    main: colors.indigo[500],
-    light: colors.indigo[100]
+    dark: '',
+    main: 'hsl(171, 100%, 41%)',
+    light: ''
   },
-  secondary: {
-    contrastText: white,
-    dark: colors.blue[900],
-    main: colors.blue['A400'],
-    light: colors.blue['A400']
-  },
+  // secondary: {
+  // contrastText: white,
+  // dark: '',
+  // main: 'hsl(171, 100%, 41%)',
+  // light: ''
+  // },
   text: {
-    primary: colors.blueGrey[900],
-    secondary: colors.blueGrey[600],
-    link: colors.blue[600]
+    // primary: '',
+    // secondary:'',
+    // link: '' 
   },
   background: {
     default: '#F4F6F8',
