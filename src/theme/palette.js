@@ -6,7 +6,7 @@
 
 // --- Color Definitations --- //
 const white = '#FFFFFF';
-const black = '#000000';
+const black = '#293347';
 
 
 // --- Exports --- //
