@@ -3,17 +3,22 @@ import React from 'react'
 
 // --- Material Ui Imports  --- //
 import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box'
 import List from '@material-ui/core/List';
 import { default as Item } from '@material-ui/core/ListItem';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography'
+import withStyles from '@material-ui/core/styles/withStyles';
+import Box from '@material-ui/core/Box';
+
+
+// --- Fontawesome Imports --- //
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPencilAlt, faCode, faBook } from '@fortawesome/free-solid-svg-icons'
 
 
 // --- Custom Components Imports --- //
 import { Section, Title, Subtitle, Background } from '../../components'
-import palette from '../../theme/palette';
-import { withStyles } from '@material-ui/core';
+
 
 // --- Colors --- //
 
@@ -31,7 +36,7 @@ const ListItem = withStyles(ListItemOverrides)(Item);
 const SkillStyles = theme => ({
   listHeader: {
     color: theme.palette.primary.main,
-    fontWeight: 800,
+    fontWeight: 700,
   }
 })
 function Skills(props) {
@@ -43,6 +48,7 @@ function Skills(props) {
       <Container align="center">
         <Grid container spacing={2}>
           <Grid item lg={4} md={12} sm={12} xs={12}>
+            <Box mb={3}><FontAwesomeIcon icon={faPencilAlt} size="3x" /></Box>
             <Title variant="h3">Design</Title>
             <Subtitle variant="h5">I value user interfaces that empower users</Subtitle>
             <Typography variant="p" paragraph className={classes.listHeader}>Technologies I use:</Typography>
@@ -58,6 +64,7 @@ function Skills(props) {
 
           </Grid>
           <Grid item lg={4} md={12} sm={12} xs={12}>
+            <Box mb={3}><FontAwesomeIcon icon={faCode} size="3x" /></Box>
             <Title variant="h3">Develop</Title>
             <Subtitle variant="h5">I write code to improve work and life</Subtitle>
             <Typography variant="p" paragraph className={classes.listHeader}>Languages and frameworks I speek:</Typography>
@@ -71,6 +78,7 @@ function Skills(props) {
             </List>
           </Grid>
           <Grid item lg={4} md={12} sm={12} xs={12}>
+            <Box mb={3}><FontAwesomeIcon icon={faBook} size="3x" /></Box>
             <Title variant="h3">More</Title>
             <Subtitle variant="h5">I learn to find solutions to complex problems</Subtitle>
             <Typography variant="p" paragraph className={classes.listHeader}> Topic I study:</Typography>
