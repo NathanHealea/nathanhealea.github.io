@@ -17,10 +17,7 @@ import { faPencilAlt, faCode, faBook } from '@fortawesome/free-solid-svg-icons'
 
 
 // --- Custom Components Imports --- //
-import { Section, Title, Subtitle, Background } from '../../components'
-
-
-// --- Colors --- //
+import { Section, Title, Subtitle } from '../../components'
 
 // --- List Item Override Styles --- //
 const ListItemOverrides = {
@@ -81,7 +78,7 @@ function Skills(props) {
             <Box mb={3}><FontAwesomeIcon icon={faBook} size="3x" /></Box>
             <Title variant="h3">More</Title>
             <Subtitle variant="h5">I learn to find solutions to complex problems</Subtitle>
-            <Typography variant="p" paragraph className={classes.listHeader}> Topic I study:</Typography>
+            <Typography variant="p" paragraph className={classes.listHeader}> Topics I study:</Typography>
             <List>
               <ListItem><Typography>System & Software Archcture</Typography></ListItem>
               <ListItem><Typography>UI Designing, UX Development</Typography></ListItem>

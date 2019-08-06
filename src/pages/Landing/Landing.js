@@ -11,8 +11,10 @@ import palette from '../../theme';
 
 
 // --- Assets Import --- //
-import logo from '../../assets/nathan-healea-logo-white.svg';
 import { Title, Subtitle, Background } from '../../components';
+
+const logo = '/static/images/nathan-healea-logo-white.svg';
+
 
 // --- Styling --- //
 const useStyle = makeStyles(theme => ({

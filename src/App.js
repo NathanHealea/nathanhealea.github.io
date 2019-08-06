@@ -9,7 +9,7 @@ import { ThemeProvider } from '@material-ui/styles';
 import theme from './theme';
 
 // --- Pages Imports --- //
-import { Landing, About, Skills } from './pages';
+import { Landing, About, Skills, Projects } from './pages';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
       <Landing />
       <About />
       <Skills />
+      <Projects />
     </ThemeProvider>
   );
 }
