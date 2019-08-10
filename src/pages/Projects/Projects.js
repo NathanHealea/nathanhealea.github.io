@@ -32,54 +32,42 @@ function Projects() {
           <Grid item lg={4} md={6} sm={12}>
             <Project
               image={eStatementSignupImage}
-            >
-              <Title variant="h4" color="secondary">10.nwcu.com</Title>
-              <Box minHeight="4rem">
-
-                <Subtitle variant="body2" color="secondary" >Northwest Community Credit Union eStatement Signup.</Subtitle>
-              </Box>
-              <Button variant="outlined" href="https://10.nwcu.com" target="_blank" color="secondary">View Project</Button>
-            </Project>
+              title="10.nwcu.com"
+              subtitle="Northwest Community Credit Union eStatement Signup"
+              link="https://10.nwcu.com"
+            />
           </Grid>
           <Grid item lg={4} md={6} sm={12}>
             <Project
               image={LibnavImage}
-            >
-              <Title variant="h4" color="secondary">Libnav</Title>
-              <Box minHeight="4rem">
-                <Subtitle variant="body2" color="secondary" >Interactive map for Oregon State University Vally Library</Subtitle>
-
-              </Box>
-              <Button variant="outlined" href="https://github.com/VallyLibrarySeniorCapstone/Libnav" target="_blank" color="secondary">View Project</Button>
-            </Project>
+              title="Libnav"
+              subtitle="Interactive map for Oregon State University Vally Library"
+              link="https://github.com/VallyLibrarySeniorCapstone/Libnav"
+            />
           </Grid>
           <Grid item lg={4} md={6} sm={12}>
             <Project
               image={WordSaladImage}
-            >
-              <Title variant="h4" color="secondary">WordSalad</Title>
-              <Box minHeight="4rem">
-
-                <Subtitle variant="body2" color="secondary">Text Anaysis designed to analyze the authenicity of privity writing samples.</Subtitle>
-              </Box>
-              <Button variant="outlined" href="https://github.com/Technology-Across-the-Curriculum/WordSalad" target="_blank" color="secondary">View Project</Button>
-            </Project>
+              title="WordSalad"
+              subtitle="Text Anaysis designed to analyze the authenicity of privity writing sample"
+              link="https://github.com/Technology-Across-the-Curriculum/WordSalad"
+            />
           </Grid>
-
-
-
           <Grid item lg={4} md={6} sm={12}>
             <Project
               image={Write365Image}
-            >
-              <Title variant="h4" color="secondary">Write 365</Title>
-              <Box minHeight="4rem">
-
-                <Subtitle variant="body2" color="secondary" >Digitial journal to promote writting 365 words a day.</Subtitle>
-              </Box>
-              <Button variant="outlined" href="#" target="_blank" color="secondary">View Project</Button>
-            </Project>
+              title="Write365"
+              subtitle="Digitial journal to promote writting 365 words a day"
+              link="#"
+            />
           </Grid>
+          <Grid item lg={4} md={6} sm={12}>
+          <Project
+            title="Geometry of Learning"
+            subtitle="Grant funded reasearch project exploring elemnets in classroom and thier effects on student learning"
+            link="#"
+          />
+        </Grid>
 
           {/*<Grid item lg={4} md={6} sm={12}>
               <Project

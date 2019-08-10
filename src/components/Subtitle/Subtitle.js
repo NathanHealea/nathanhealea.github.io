@@ -1,5 +1,6 @@
 // --- Imports --- //
 import React from 'react'
+import clsx from 'clsx';
 
 // --- Materail Ui Imports --- //
 import Typography from '@material-ui/core/Typography'
@@ -17,9 +18,11 @@ const useStyles = makeStyles(theme => ({
 
 function Subtitle(props) {
   const classes = useStyles();
-  const { children, ...rest } = props;
+  const { children, className, ...rest } = props;
+
+  const styles = className? clsx(classes.root, className) : classes.root;
   return (
-    <Typography {...rest} className={classes.root}>
+    <Typography {...rest} className={styles}>
       {children}
     </Typography>
   )
