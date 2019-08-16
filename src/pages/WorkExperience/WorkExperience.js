@@ -31,6 +31,7 @@ function WorkExperience() {
         alt="Northwest Community Credit Union Logo"
       />
       <Experience
+        odd
         position="Student Software Developer"
         company="Technology Across the Curriculum - Oregon State University"
         time="July 2015 - August 2017"
@@ -46,10 +47,11 @@ function WorkExperience() {
       />
 
       <Experience
+        odd
         position="Web Developer/ Programmer"
         company="Internship - Simplifed Computting LLC"
         time="Mar 2014 - June 2014"
-        image="/static/images/jobs/simplified-computing-logo.png"
+        image="/static/images/jobs/simplified-computting-logo.png"
         alt="Simplifed Computting Logo"
       />
     </Section>

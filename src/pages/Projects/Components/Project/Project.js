@@ -56,7 +56,8 @@ export const FiCardMedia = withStyles({
 const useStyles = makeStyles(theme => ({
   title: {
     minHeight: '2rem',
-    maxHeight: '2rem'
+    maxHeight: '2rem',
+    width: '100%'
   },
   subtitle: {
     height: '4rem',
