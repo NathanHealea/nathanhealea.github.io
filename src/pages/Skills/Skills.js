@@ -44,7 +44,7 @@ function Skills(props) {
     <Section>
       <Container align="center">
         <Grid container spacing={2}>
-          <Grid item lg={4} md={12} sm={12} xs={12}>
+          <Grid item lg={4} md={4} sm={12} xs={12}>
             <Box mb={3}><FontAwesomeIcon icon={faPencilAlt} size="3x" /></Box>
             <Title variant="h3">Design</Title>
             <Subtitle variant="h5">I value user interfaces that empower users</Subtitle>
@@ -60,7 +60,7 @@ function Skills(props) {
             </List>
 
           </Grid>
-          <Grid item lg={4} md={12} sm={12} xs={12}>
+          <Grid item lg={4} md={4} sm={12} xs={12}>
             <Box mb={3}><FontAwesomeIcon icon={faCode} size="3x" /></Box>
             <Title variant="h3">Develop</Title>
             <Subtitle variant="h5">I write code to improve work and life</Subtitle>
@@ -74,7 +74,7 @@ function Skills(props) {
               <ListItem><Typography>PL, SQL, NoSQL</Typography></ListItem>
             </List>
           </Grid>
-          <Grid item lg={4} md={12} sm={12} xs={12}>
+          <Grid item lg={4} md={4} sm={12} xs={12}>
             <Box mb={3}><FontAwesomeIcon icon={faBook} size="3x" /></Box>
             <Title variant="h3">More</Title>
             <Subtitle variant="h5">I learn to find solutions to complex problems</Subtitle>
