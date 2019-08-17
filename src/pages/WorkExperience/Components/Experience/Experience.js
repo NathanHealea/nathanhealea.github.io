@@ -25,6 +25,9 @@ const useStyles = makeStyles(theme => ({
     },
 
   },
+  image: {
+    maxWidth: 244
+  },
   experienceDetials: {
     [theme.breakpoints.up("md")]: {
       order: props => props.odd ? 1 : 2,
@@ -54,7 +57,8 @@ function Experience(props) {
             <img
               src={props.image}
               alt={props.alt}
-              style={{ maxHeight: "100%", maxWidth: "100%" }}
+              // style={{ maxHeight: "100%", maxWidth: "100%" }}
+              className={classes.image}
             />
           </Box>
         </Grid>
