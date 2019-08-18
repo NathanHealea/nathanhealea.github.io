@@ -76,10 +76,10 @@ function Experience(props) {
             bgcolor={theme.palette.primary.main}
             color={theme.palette.white}
           >
-            <Title variant="h3" component="p">
+            <Title variant="h4" component="p">
               {props.position}
             </Title>
-            <Subtitle variant="h5" component="p" gutterBottoms>
+            <Subtitle variant="h6" component="p" gutterBottoms>
               {props.company}
             </Subtitle>
             <Typography variant="overline">{props.time}</Typography>

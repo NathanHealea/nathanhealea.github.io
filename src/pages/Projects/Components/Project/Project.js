@@ -94,7 +94,7 @@ function Project(props) {
           </Title>
 
           <Subtitle
-            variant="body2"
+            variant="h6"
             color="secondary"
             className={classes.subtitle}
           >

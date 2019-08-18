@@ -37,10 +37,9 @@ function Landing() {
           </Box>
           <Title variant="h3">Full Stack Engineer | Web Developer | Software Engineer</Title>
           <Subtitle variant="h4" >
-            I develop applications to simplify life and work
+            I develop applications to enhance life and work
         </Subtitle>
         </Container>
-
       </Box>
     </Background>
   )
