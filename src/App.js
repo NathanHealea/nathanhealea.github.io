@@ -2,15 +2,22 @@
 import React from 'react';
 
 // --- Rotuer Imports --- //
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 
-// --- Theme Imports --- // 
+// --- Theme Imports --- //
 import { ThemeProvider } from '@material-ui/styles';
 import theme from './theme';
 
 // --- Pages Imports --- //
-import { Landing, About, Skills, Projects, WorkExperience, Education } from './pages';
-
+import {
+  Landing,
+  About,
+  Skills,
+  Projects,
+  WorkExperience,
+  Education,
+  Footer
+} from './pages';
 
 function App() {
   return (
@@ -21,6 +28,7 @@ function App() {
       <Projects />
       <WorkExperience />
       <Education />
+      <Footer />
     </ThemeProvider>
   );
 }

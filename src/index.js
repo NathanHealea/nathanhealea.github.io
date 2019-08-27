@@ -1,7 +1,12 @@
+// --- Imports --- //
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+// --- Type and Styling Imports --- //
 import 'typeface-roboto';
 import './index.css';
+
+// --- Application Imports --- //
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
