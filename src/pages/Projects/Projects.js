@@ -29,7 +29,7 @@ function Projects() {
           Projects
         </Title>
         <Subtitle variant="h5" gutterBottom>
-          My passion, joy, and skill demonstrated in quality applications
+          My passion, joy, and knowldge demonstrated in quality applications
         </Subtitle>
 
         <Grid container spacing={4}>
