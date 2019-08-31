@@ -27,29 +27,25 @@ function Landing() {
   const classes = useStyle();
 
   return (
-    <Background height="100vh">
-      <Box
-        height="100vh"
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        textAlign="center"
-        color={palette.palette.white}
-      >
-        <Container>
-          <Box mb={4}>
-            {/* <img src={logo} alt="Nathan Healea Logo" /> */}
-            <Logo />
-          </Box>
-          <Title variant="h3">
-            Full Stack Engineer | Web Developer | Software Engineer
-          </Title>
-          <Subtitle variant="h4">
-            I develop applications to enhance life and work
-          </Subtitle>
-        </Container>
-      </Box>
-    </Background>
+    <Box
+      height="100vh"
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      textAlign="center"
+    >
+      <Container>
+        <Box mb={4}>
+          <Logo />
+        </Box>
+        <Title variant="h3">
+          Full Stack Engineer | Web Developer | Software Engineer
+        </Title>
+        <Subtitle variant="h4">
+          I develop applications to enhance life and work
+        </Subtitle>
+      </Container>
+    </Box>
   );
 }
 

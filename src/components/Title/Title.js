@@ -9,7 +9,7 @@ import makeStyles from '@material-ui/styles/makeStyles';
 const useStyles = makeStyles(theme => ({
   root: {
     fontWeight: '800',
-    // marginBottom: '1.5rem',
+    marginBottom: '1.5rem',
     wordBreak: 'break-word'
   }
 }));

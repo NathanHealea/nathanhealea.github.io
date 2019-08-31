@@ -6,7 +6,9 @@ import Box from '@material-ui/core/Box';
 import { makeStyles } from '@material-ui/core';
 
 // --- link --- //
-const logo = '/static/images/nathan-healea-logo-white.svg';
+// const logo = '/static/images/nathan-healea-logo-white.svg'
+import logo from './nh-logo.png';
+import altLogo from './nh-alt-logo.png';
 
 const useStyles = makeStyles(theme => ({
   image: {
@@ -16,9 +18,14 @@ const useStyles = makeStyles(theme => ({
 }));
 function Logo(props) {
   const classes = useStyles();
+  const { altlogo, ...rest } = props;
   return (
-    <Box {...props}>
-      <img src={logo} alt="Nathan Healea Logo" className={classes.image} />
+    <Box {...rest}>
+      <img
+        src={Boolean(props.altlogo) ? altLogo : logo}
+        alt="Nathan Healea Logo"
+        className={classes.image}
+      />
     </Box>
   );
 }

@@ -66,7 +66,7 @@ function Contact() {
       color={theme.palette.secondary.main}
     >
       <Container align="center">
-        <Logo height={150} mb={2} />
+        <Logo height={150} mb={2} altlogo />
         <Subtitle variant="h5">My Life, Work and Passion</Subtitle>
         <Box mb={'1.5rem'}>
           <Link href="https://www.linkedin.com/in/nathanhealea" target="_blank">
