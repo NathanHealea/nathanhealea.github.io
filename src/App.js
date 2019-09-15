@@ -16,19 +16,21 @@ import {
   Projects,
   WorkExperience,
   Education,
-  Footer
+  Footer,
+  Maintenance
 } from './pages';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Landing />
+      <Maintenance />
+      {/* <Landing />
       <About />
       <Skills />
       <Projects />
       <WorkExperience />
       <Education />
-      <Footer />
+      <Footer /> */}
     </ThemeProvider>
   );
 }

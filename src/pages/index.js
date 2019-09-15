@@ -5,3 +5,4 @@ export { default as Projects } from './Projects';
 export { default as WorkExperience } from './WorkExperience';
 export { default as Education } from './Education';
 export { default as Footer } from './Footer';
+export { default as Maintenance } from './Maintenance';
