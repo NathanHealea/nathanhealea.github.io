@@ -1,8 +1,8 @@
 // --- Imports --- //
-import React from 'react';
+import React, { Fragment } from 'react';
 
 // --- Rotuer Imports --- //
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // --- Theme Imports --- //
 import { ThemeProvider } from '@material-ui/styles';
@@ -20,17 +20,34 @@ import {
   Maintenance
 } from './pages';
 
-function App() {
+function Main() {
   return (
-    <ThemeProvider theme={theme}>
-      <Maintenance />
-      {/* <Landing />
+    <Fragment>
+      <Landing />
       <About />
       <Skills />
       <Projects />
       <WorkExperience />
       <Education />
-      <Footer /> */}
+      <Footer />F
+    </Fragment>
+  );
+}
+
+function App() {
+  console.log(process.env);
+  return (
+    <ThemeProvider theme={theme}>
+      <Router>
+        <Route
+          path="/"
+          exact
+          component={
+            process.env.REACT_APP_MODE === 'maintenance' ? Maintenance : Main
+          }
+        />
+        <Route path="/preview" component={Main} />
+      </Router>
     </ThemeProvider>
   );
 }
