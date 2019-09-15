@@ -18,7 +18,7 @@ import {
   faInstagram,
   faTwitter
 } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faCode, faFile } from '@fortawesome/free-solid-svg-icons';
 
 // --- Custom Components Imports --- //
 import { Section, Title, Subtitle, Logo } from '../../components';
@@ -67,7 +67,7 @@ function Contact() {
     >
       <Container align="center">
         <Logo height={150} mb={2} altlogo />
-        <Subtitle variant="h5">My Life, Work and Passion</Subtitle>
+        <Subtitle variant="h5">My Life, Work, and Passion</Subtitle>
         <Box mb={'1.5rem'}>
           <Link href="https://www.linkedin.com/in/nathanhealea" target="_blank">
             <SocialButton>
@@ -81,9 +81,9 @@ function Contact() {
             </SocialButton>
           </Link>
 
-          <Link href="https://www.facebook.com/nate.healea" target="_blank">
+          <Link href="https://codesandbox.io/u/NathanHealea" target="_blank">
             <SocialButton>
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
+              <FontAwesomeIcon icon={faCode} size="2x" />
             </SocialButton>
           </Link>
 
@@ -99,11 +99,11 @@ function Contact() {
             </SocialButton>
           </Link>
 
-          <Link href="https://www.linkedin.com/in/nathanhealea" target="_blank">
+          {/* <Link href="" target="_blank">
             <SocialButton>
-              <FontAwesomeIcon icon={faEnvelope} size="2x" />
+              <FontAwesomeIcon icon={faFile} size="2x" />
             </SocialButton>
-          </Link>
+          </Link> */}
         </Box>
 
         <Typography>Crafted by me &copy; Nathan Healea </Typography>

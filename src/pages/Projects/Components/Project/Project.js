@@ -29,7 +29,9 @@ export const FiCard = withStyles({
 
 export const FiCardActions = withStyles({
   root: {
-    position: 'relative'
+    position: 'relative',
+    height: '100%',
+    width: '100%'
   }
 })(CardActions);
 
@@ -93,11 +95,7 @@ function Project(props) {
             {props.title}
           </Title>
 
-          <Subtitle
-            variant="h6"
-            color="secondary"
-            className={classes.subtitle}
-          >
+          <Subtitle variant="h6" color="secondary" className={classes.subtitle}>
             {props.subtitle}
           </Subtitle>
           <Button

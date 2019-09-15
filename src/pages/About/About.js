@@ -17,14 +17,14 @@ function About() {
       <Container align="center">
         <Title variant="h3">Hello World; I'm Nathan Healea </Title>
         <Subtitle variant="h5">
-          Since my journey as a software engineer, I’ve joined organization to
+          Since my journey as a software engineer, I’ve joined organizations to
           work with clients to define project scope and gather project
           requirements, architecte software infrastructure, develop high quality
-          application to simplify and improve business processes, write code
+          applications to simplify and improve business processes, write code
           that is maintainable, clean, and well documented, worked with
           development team create software development standards. I’m always
-          learning to expand my knowledge, looking for interesting problems to
-          solve me with my skill.
+          learning to expand my knowledge, and looking for interesting problems
+          to solve with my skill.
         </Subtitle>
       </Container>
     </Section>

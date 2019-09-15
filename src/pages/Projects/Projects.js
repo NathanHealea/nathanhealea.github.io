@@ -29,11 +29,11 @@ function Projects() {
           Projects
         </Title>
         <Subtitle variant="h5" gutterBottom>
-          My passion, joy, and knowldge demonstrated in quality applications
+          My passion, joy, and knowledge demonstrated in quality applications
         </Subtitle>
 
         <Grid container spacing={4}>
-          <Grid item lg={4} md={6} sm={12}>
+          <Grid item lg={4} md={6} sm={12} xs={12}>
             <Project
               image={eStatementSignupImage}
               title="10.nwcu.com"
@@ -41,7 +41,7 @@ function Projects() {
               link="https://10.nwcu.com"
             />
           </Grid>
-          <Grid item lg={4} md={6} sm={12}>
+          <Grid item lg={4} md={6} sm={12} xs={12}>
             <Project
               image={LibnavImage}
               title="Libnav"
@@ -49,15 +49,15 @@ function Projects() {
               link="https://github.com/VallyLibrarySeniorCapstone/Libnav"
             />
           </Grid>
-          <Grid item lg={4} md={6} sm={12}>
+          <Grid item lg={4} md={6} sm={12} xs={12}>
             <Project
               image={WordSaladImage}
               title="WordSalad"
-              subtitle="Text Anaysis designed to analyze the authenicity of privity writing sample"
+              subtitle="Text anaysis serivce designed to analyze the authenicity of privity writing samples"
               link="https://github.com/Technology-Across-the-Curriculum/WordSalad"
             />
           </Grid>
-          <Grid item lg={4} md={6} sm={12}>
+          <Grid item lg={4} md={6} sm={12} xs={12}>
             <Project
               image={Write365Image}
               title="Write365"
@@ -65,10 +65,10 @@ function Projects() {
               link="#"
             />
           </Grid>
-          <Grid item lg={4} md={6} sm={12}>
+          <Grid item lg={4} md={6} sm={12} xs={12}>
             <Project
               title="Geometry of Learning"
-              subtitle="Grant funded reasearch project exploring elemnets in classroom and thier effects on student learning"
+              subtitle="Grant funded reasearch project exploring elements in classroom and there effects on student learning"
               link="#"
             />
           </Grid>
