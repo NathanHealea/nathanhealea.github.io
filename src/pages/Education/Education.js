@@ -1,26 +1,26 @@
 // --- Imports --- //
-import React from "react";
+import React from 'react';
 
 // --- Material Ui Imports  --- //
-import Container from "@material-ui/core/Container";
-import List from "@material-ui/core/List";
-import { default as Item } from "@material-ui/core/ListItem";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import withStyles from "@material-ui/core/styles/withStyles";
-import Box from "@material-ui/core/Box";
+import Container from '@material-ui/core/Container';
+import List from '@material-ui/core/List';
+import { default as Item } from '@material-ui/core/ListItem';
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Box from '@material-ui/core/Box';
 
 // --- Fontawesome Imports --- //
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPencilAlt, faCode, faBook } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPencilAlt, faCode, faBook } from '@fortawesome/free-solid-svg-icons';
 
 // --- Custom Components Imports --- //
-import { Section, Title, Subtitle } from "../../components";
+import { Section, Title, Subtitle } from '../../components';
 
 // --- List Item Override Styles --- //
 const ListItemOverrides = {
   root: {
-    justifyContent: "center"
+    justifyContent: 'center'
   }
 };
 
@@ -43,7 +43,6 @@ function Education(props) {
     <Section>
       <Container align="center">
         <Title variant="h3">Education</Title>
-        <Subtitle variant="h5">The foundation of my knowledge</Subtitle>
         <Grid container spacing={2}>
           <Grid item lg={6} md={6} sm={12} xs={12}>
             <Box width="100%" py={2}>
@@ -53,7 +52,7 @@ function Education(props) {
                 className={classes.educationImage}
               />
             </Box>
-            <Title variant="h4">Batchelors of Science - Computer Science</Title>
+            <Title variant="h4">Bachelor's of Science - Computer Science</Title>
             <Subtitle variant="h6">
               Business & Entrepreneurship - Minor
             </Subtitle>
@@ -66,12 +65,18 @@ function Education(props) {
                 className={classes.educationImage}
               />
             </Box>
-            <Title variant="h4">Associates of Applied Science - Computer Programming</Title>
+            <Title variant="h4">
+              Associates of Applied Science - Computer Programming
+            </Title>
             <Subtitle variant="h6">
-            Business & Entrepreneurship - Minor
+              Business & Entrepreneurship - Minor
             </Subtitle>
-            <Typography paragraph>Computer Game Programming in C++ - Career Pathway Certificate</Typography>
-            <Typography>Database Specialist - Career Pathway Certificate</Typography>
+            <Typography paragraph>
+              Computer Game Programming in C++ - Career Pathway Certificate
+            </Typography>
+            <Typography>
+              Database Specialist - Career Pathway Certificate
+            </Typography>
           </Grid>
         </Grid>
       </Container>

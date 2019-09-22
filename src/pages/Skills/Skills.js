@@ -12,7 +12,11 @@ import Box from '@material-ui/core/Box';
 
 // --- Fontawesome Imports --- //
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPencilAlt, faCode, faBook } from '@fortawesome/free-solid-svg-icons';
+import {
+  faLaptopCode,
+  faCode,
+  faBook
+} from '@fortawesome/free-solid-svg-icons';
 
 // --- Custom Components Imports --- //
 import { Section, Title, Subtitle } from '../../components';
@@ -42,9 +46,9 @@ function Skills(props) {
         <Grid container spacing={2}>
           <Grid item lg={4} md={4} sm={12} xs={12}>
             <Box mb={3}>
-              <FontAwesomeIcon icon={faPencilAlt} size="3x" />
+              <FontAwesomeIcon icon={faLaptopCode} size="3x" />
             </Box>
-            <Title variant="h3">Design</Title>
+            <Title variant="h3">Frontend</Title>
             <Subtitle variant="h5">
               I value user interfaces that empower users
             </Subtitle>
@@ -79,19 +83,19 @@ function Skills(props) {
             <Box mb={3}>
               <FontAwesomeIcon icon={faCode} size="3x" />
             </Box>
-            <Title variant="h3">Develop</Title>
+            <Title variant="h3">Backend</Title>
             <Subtitle variant="h5">
               I write code to improve work and life
             </Subtitle>
             <Typography variant="p" paragraph className={classes.listHeader}>
-              Languages and frameworks I speak:
+              Languages I speak and framework I know:
             </Typography>
             <List>
               <ListItem>
-                <Typography>ASP.Net Fomrs, MVC, .Net Core</Typography>
+                <Typography>ASP.Net Forms, MVC, .Net Core</Typography>
               </ListItem>
               <ListItem>
-                <Typography>C, C++ , C#</Typography>
+                <Typography>C, C++, C#</Typography>
               </ListItem>
               <ListItem>
                 <Typography>PHP, Drupal</Typography>
@@ -116,29 +120,31 @@ function Skills(props) {
               I find solutions to complex problems
             </Subtitle>
             <Typography variant="p" paragraph className={classes.listHeader}>
-              {' '}
               Topics I study:
             </Typography>
             <List>
               <ListItem>
-                <Typography>System & Software Archcture</Typography>
+                <Typography>System & Software Arcature</Typography>
               </ListItem>
               <ListItem>
-                <Typography>UI Designing, UX Development</Typography>
+                <Typography>UI Design, UX Development</Typography>
               </ListItem>
               <ListItem>
-                <Typography>Database Structures & Desgin</Typography>
+                <Typography>Database Structures & Design</Typography>
               </ListItem>
               <ListItem>
                 <Typography>
-                  Continuous Intergration & Continuous Delivery
+                  Continuous Integration & Continuous Deployment
                 </Typography>
               </ListItem>
               <ListItem>
-                <Typography>Version Control Stucture & Flow</Typography>
+                <Typography>Version Control Structure & Flow</Typography>
               </ListItem>
               <ListItem>
-                <Typography>Agile & Scrum</Typography>
+                <Typography>Agile & Scrum Methodology</Typography>
+              </ListItem>
+              <ListItem>
+                <Typography>REST API Design and Implementation </Typography>
               </ListItem>
             </List>
           </Grid>

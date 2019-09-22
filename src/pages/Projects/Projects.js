@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 
 // --- Custom Component Imports -- //
 import { Section, Title, Subtitle } from '../../components';
@@ -26,11 +27,8 @@ function Projects() {
     <Section>
       <Container align="center">
         <Title variant="h3" gutterBottom>
-          Projects
+          Recent Projects
         </Title>
-        <Subtitle variant="h5" gutterBottom>
-          My passion, joy, and knowledge demonstrated in quality applications
-        </Subtitle>
 
         <Grid container spacing={4}>
           <Grid item lg={4} md={6} sm={12} xs={12}>
@@ -71,6 +69,34 @@ function Projects() {
               subtitle="Grant funded reasearch project exploring elements in classroom and there effects on student learning"
               link="#"
             />
+          </Grid>
+          <Grid item lg={12} md={12} sm={12} xs={12}>
+            <Subtitle variant="h5" gutterBottom>
+              For more checkout my{' '}
+              <Link
+                href="https://github.com/NathanHealea"
+                underline="none"
+                target="_blank"
+              >
+                GitHub
+              </Link>
+              ,{' '}
+              <Link
+                href="https://codesandbox.io/u/NathanHealea"
+                underline="none"
+                target="_blank"
+              >
+                CodSandBox
+              </Link>
+              , and{' '}
+              <Link
+                href="https://codepen.io/NathanHealea"
+                underline="none"
+                target="_blank"
+              >
+                CodePen
+              </Link>
+            </Subtitle>
           </Grid>
         </Grid>
       </Container>

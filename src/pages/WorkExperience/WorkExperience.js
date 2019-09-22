@@ -1,15 +1,15 @@
 // --- Imports --- //
-import React from "react";
+import React from 'react';
 
 // --- Material Ui Imports  --- //
-import Container from "@material-ui/core/Container";
-import Box from "@material-ui/core/Box";
-import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
 
 // --- Custom Component Imports -- //
-import { Section, Title, Subtitle } from "../../components";
-import { Experience } from "./Components";
+import { Section, Title, Subtitle } from '../../components';
+import { Experience } from './Components';
 
 // --- Image imports --- //
 
@@ -17,10 +17,9 @@ function WorkExperience() {
   return (
     <Section>
       <Container align="center">
-        <Title variant="h3" gutterBottom>
-          Work Expirence
+        <Title variant="h3" gutterButtom>
+          Work Experience
         </Title>
-        <Subtitle variant="h5">TBD</Subtitle>
       </Container>
 
       <Experience

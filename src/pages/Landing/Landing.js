@@ -5,21 +5,23 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import makeStyles from '@material-ui/styles/MakeStyles';
+import Typography from '@material-ui/core/Typography';
+
+// --- Fontawesome Imports --- //
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 // --- Colors --- //
 import palette from '../../theme';
 
 // --- Assets Import --- //
 import { Title, Subtitle, Background, Logo } from '../../components';
+import { Button } from '@material-ui/core';
 
 // --- Styling --- //
 const useStyle = makeStyles(theme => ({
-  graident: {
-    background: '#1d976c' /* fallback for old browsers */,
-    background:
-      '-webkit-linear-gradient(to right, #1d976c, #93f9b9)' /* Chrome 10-25, Safari 5.1-6 */,
-    background:
-      'linear-gradient(to right, #1d976c, #93f9b9)' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  Tagline: {
+    textTransform: 'uppercase'
   }
 }));
 
@@ -35,15 +37,24 @@ function Landing() {
       textAlign="center"
     >
       <Container>
-        <Box mb={4}>
-          <Logo />
-        </Box>
-        <Title variant="h3">
-          Full Stack Engineer | Web Developer | Software Engineer
-        </Title>
-        <Subtitle variant="h4">
-          I develop applications to enhance life and work
+        <Title variant="h3">Hello, I'm Nathan Healea</Title>
+        <Subtitle variant="h5">
+          Full Stack Engineer | Software Developer
         </Subtitle>
+        <Box mb={4}>
+          <Logo height={250} />
+        </Box>
+        <Box pt={8}>
+          <Button
+            color="primary"
+            onClick={() => {
+              var element = document.getElementById('about-section');
+              element.scrollIntoView();
+            }}
+          >
+            <FontAwesomeIcon icon={faChevronDown} size="3x" />
+          </Button>
+        </Box>
       </Container>
     </Box>
   );
