@@ -43,7 +43,7 @@ function Projects() {
             <Project
               image={LibnavImage}
               title="Libnav"
-              subtitle="Interactive map for Oregon State University Vally Library"
+              subtitle="Interactive map for Oregon State University Valley Library"
               link="https://github.com/VallyLibrarySeniorCapstone/Libnav"
             />
           </Grid>
@@ -74,7 +74,7 @@ function Projects() {
           <Grid item lg={4} md={6} sm={12} xs={12}>
             <Project
               title="Geometry of Learning"
-              subtitle="Grant funded reasearch project exploring elements in classroom and there effects on student learning"
+              subtitle="Grant funded research project exploring elements in classroom and there effects on student learning"
               link="#"
             />
           </Grid>

@@ -28,11 +28,11 @@ function About() {
           <Grid item lg={8} md={8} sm={12} xs={12}>
             <Title variant="h3">About Me</Title>
             <Subtitle variant="h5">
-              Since my journey as a software engineer, I’ve joined organizations
-              to empower users by designing and develop application to improve
-              experience and business processes. Through expiration and failing
-              I strive to expand my knowledge and skills. I'm always seeking new
-              challenges to take on.
+              Since my journey as a software engineer began, I’ve joined teams
+              to empower users by designing and developing applications to
+              improve experiences and business processes. Through exploration
+              and failing, I strive to expand my knowledge and skills. I'm
+              always seeking new challenges to take on.
             </Subtitle>
           </Grid>
         </Grid>
