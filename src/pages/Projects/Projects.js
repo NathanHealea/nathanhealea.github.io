@@ -51,7 +51,7 @@ function Projects() {
             <Project
               image={WordSaladImage}
               title="WordSalad"
-              subtitle="Text anaysis serivce designed to analyze the authenicity of privity writing samples"
+              subtitle="Text analysis service designed to analyze the authenticity of privity writing samples"
               link="https://github.com/Technology-Across-the-Curriculum/WordSalad"
             />
           </Grid>
@@ -59,7 +59,15 @@ function Projects() {
             <Project
               image={Write365Image}
               title="Write365"
-              subtitle="Digitial journal to promote writting 365 words a day"
+              subtitle="Digital journal to promote writing 365 words a day"
+              link="https://immersivelrn.org/portfolio/write365-learning-writing-by-doing/"
+            />
+          </Grid>
+          <Grid item lg={4} md={6} sm={12} xs={12}>
+            <Project
+              image={ResearchPortalImage}
+              title="Write365 Research Portal"
+              subtitle="Portal to provide academic researchers insight to live anonymous data from Write365 and WordSalad."
               link="#"
             />
           </Grid>

@@ -88,7 +88,7 @@ function Skills(props) {
               I write code to improve work and life
             </Subtitle>
             <Typography variant="p" paragraph className={classes.listHeader}>
-              Languages I speak and framework I know:
+              Languages I speak; Framework I use:
             </Typography>
             <List>
               <ListItem>

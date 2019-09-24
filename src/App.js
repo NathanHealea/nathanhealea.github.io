@@ -29,7 +29,7 @@ function Main() {
       <Projects />
       <WorkExperience />
       <Education />
-      <Footer />F
+      <Footer />
     </Fragment>
   );
 }
