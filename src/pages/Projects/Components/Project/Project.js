@@ -78,13 +78,13 @@ function Project(props) {
   };
 
   return (
-    <FiCard
-      onMouseEnter={toggleContent}
-      onMouseLeave={toggleContent}
-      onClick={toggleContent}
-    >
-      <FiCardMedia image={props.image} />
-      <Fade in={show} style={{ transitionDelay: show ? '125ms' : '0ms' }}>
+    <FiCard onMouseLeave={toggleContent}>
+      <FiCardMedia
+        image={props.image}
+        onMouseEnter={toggleContent}
+        onClick={toggleContent}
+      />
+      <Fade in={show}>
         <FiCardContent>
           <Title
             variant="h4"
