@@ -30,9 +30,9 @@ function About() {
             <Subtitle variant="h5">
               Since my journey as a software engineer began, I’ve joined teams
               to empower users by designing and developing applications to
-              improve experiences and business processes. Through exploration
-              and failing, I strive to expand my knowledge and skills. I'm
-              always seeking new challenges to take on.
+              improve user experiences and business processes. Through
+              exploration and failing, I strive to expand my knowledge and
+              skills. I'm always seeking new challenges to take on.
             </Subtitle>
           </Grid>
         </Grid>

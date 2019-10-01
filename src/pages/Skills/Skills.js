@@ -130,7 +130,7 @@ function Skills(props) {
                 <Typography>UI Design, UX Development</Typography>
               </ListItem>
               <ListItem>
-                <Typography>Database Structures & Design</Typography>
+                <Typography>Database Structure & Design</Typography>
               </ListItem>
               <ListItem>
                 <Typography>
@@ -138,13 +138,13 @@ function Skills(props) {
                 </Typography>
               </ListItem>
               <ListItem>
-                <Typography>Version Control Structure & Flow</Typography>
+                <Typography>Version Control Structure & Workflow</Typography>
               </ListItem>
               <ListItem>
-                <Typography>Agile & Scrum Methodology</Typography>
+                <Typography>Agile & Scrum Methodologies</Typography>
               </ListItem>
               <ListItem>
-                <Typography>REST API Design and Implementation </Typography>
+                <Typography>REST API Design & Implementation </Typography>
               </ListItem>
             </List>
           </Grid>

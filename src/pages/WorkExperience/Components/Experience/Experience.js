@@ -1,42 +1,41 @@
 // --- Imports --- //
-import React from "react";
+import React from 'react';
 
 // --- Material Ui Imports  --- //
-import Container from "@material-ui/core/Container";
-import Box from "@material-ui/core/Box";
-import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import useTheme from "@material-ui/core/styles/useTheme";
-import makeStyles from "@material-ui/core/styles/makeStyles";
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import useTheme from '@material-ui/core/styles/useTheme';
+import makeStyles from '@material-ui/core/styles/makeStyles';
 
 // --- Custom Component Imports -- //
-import { Title, Subtitle } from "../../../../components";
+import { Title, Subtitle } from '../../../../components';
 
 // --- Styling --- //
 
 const useStyles = makeStyles(theme => ({
   experienceImage: {
-    [theme.breakpoints.up("md")]: {
-      order: props =>props.odd ? 2 : 1,
+    [theme.breakpoints.up('md')]: {
+      order: props => (props.odd ? 2 : 1)
     },
-    [theme.breakpoints.down("sm")]: {
-      order: 1,
-    },
-
+    [theme.breakpoints.down('sm')]: {
+      order: 1
+    }
   },
   image: {
     maxWidth: 244
   },
-  experienceDetials: {
-    [theme.breakpoints.up("md")]: {
-      order: props => props.odd ? 1 : 2,
-      textAlign: props => props.odd? 'right' : 'left'
+  experienceDetails: {
+    [theme.breakpoints.up('md')]: {
+      order: props => (props.odd ? 1 : 2),
+      textAlign: props => (props.odd ? 'right' : 'left')
     },
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('sm')]: {
       order: 2,
-      textAlign:'center'
-    },
+      textAlign: 'center'
+    }
   }
 }));
 
@@ -46,7 +45,14 @@ function Experience(props) {
   return (
     <React.Fragment>
       <Grid container alignItems="stretch">
-        <Grid item lg={6} md={6} sm={12} xs={12} className={classes.experienceImage}>
+        <Grid
+          item
+          lg={6}
+          md={6}
+          sm={12}
+          xs={12}
+          className={classes.experienceImage}
+        >
           <Box
             height="100%"
             p="4rem"
@@ -68,7 +74,7 @@ function Experience(props) {
           md={6}
           sm={12}
           xs={12}
-          className={classes.experienceDetials}
+          className={classes.experienceDetails}
         >
           <Box
             height="100%"
@@ -76,10 +82,8 @@ function Experience(props) {
             bgcolor={theme.palette.primary.main}
             color={theme.palette.white}
           >
-            <Title variant="h4" component="p">
-              {props.position}
-            </Title>
-            <Subtitle variant="h6" component="p" gutterBottoms>
+            <Title variant="h4">{props.position}</Title>
+            <Subtitle variant="h6" gutterBottoms>
               {props.company}
             </Subtitle>
             <Typography variant="overline">{props.time}</Typography>

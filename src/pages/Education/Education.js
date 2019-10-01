@@ -53,7 +53,7 @@ function Education(props) {
               />
             </Box>
             <Title variant="h4">Bachelor's of Science - Computer Science</Title>
-            <Subtitle variant="h6">
+            <Subtitle variant="h6" component="p" gutterBottom>
               Business & Entrepreneurship - Minor
             </Subtitle>
           </Grid>
@@ -74,7 +74,7 @@ function Education(props) {
             <Typography paragraph>
               Computer Game Programming in C++ - Career Pathway Certificate
             </Typography>
-            <Typography>
+            <Typography paragraph>
               Database Specialist - Career Pathway Certificate
             </Typography>
           </Grid>

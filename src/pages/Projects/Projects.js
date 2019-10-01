@@ -94,7 +94,7 @@ function Projects() {
                 underline="none"
                 target="_blank"
               >
-                CodSandBox
+                CodeSandbox
               </Link>
               , and{' '}
               <Link

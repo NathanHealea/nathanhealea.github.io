@@ -48,10 +48,10 @@ function WorkExperience() {
       <Experience
         odd
         position="Web Developer/ Programmer"
-        company="Internship - Simplifed Computting LLC"
+        company="Internship - Simplified Computing LLC"
         time="Mar 2014 - June 2014"
-        image="/static/images/jobs/simplified-computting-logo.png"
-        alt="Simplifed Computting Logo"
+        image="/static/images/jobs/simplified-computing-logo.png"
+        alt="Simplified Computing Logo"
       />
     </Section>
   );
