@@ -24,7 +24,8 @@ import { Section, Title, Subtitle } from '../../components';
 // --- List Item Override Styles --- //
 const ListItemOverrides = {
   root: {
-    justifyContent: 'center'
+    justifyContent: 'center',
+    textAlign: 'center'
   }
 };
 
