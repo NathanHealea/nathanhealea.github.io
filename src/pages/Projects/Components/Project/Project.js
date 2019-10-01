@@ -100,7 +100,7 @@ function Project(props) {
           </Subtitle>
           <Button
             variant="outlined"
-            href="https://10.nwcu.com"
+            href={props.link}
             target="_blank"
             color="secondary"
           >
