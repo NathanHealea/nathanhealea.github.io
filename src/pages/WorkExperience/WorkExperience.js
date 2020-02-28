@@ -11,6 +11,7 @@ import Button from '@material-ui/core/Button';
 import { Section, Title, Subtitle } from '../../components';
 import { Experience } from './Components';
 
+import config from './config';
 // --- Image imports --- //
 
 function WorkExperience() {
@@ -21,38 +22,9 @@ function WorkExperience() {
           Work Experience
         </Title>
       </Container>
-
-      <Experience
-        position="Programmer Analyst"
-        company="Northwest Community Credit Union"
-        time="August 2017 - Current"
-        image="/static/images/jobs/northwest-community-credit-union-logo.svg"
-        alt="Northwest Community Credit Union Logo"
-      />
-      <Experience
-        odd
-        position="Student Software Developer"
-        company="Technology Across the Curriculum - Oregon State University"
-        time="July 2015 - August 2017"
-        image="/static/images/jobs/oregon-state-university-logo.png"
-        alt="Oregon State University Logo"
-      />
-      <Experience
-        position="Student Software Developer"
-        company="Integrated Plant Protection Center - Oregon State University"
-        time="Mar 2015 – Jul 2015"
-        image="/static/images/jobs/oregon-state-university-logo.png"
-        alt="Oregon State University Logo"
-      />
-
-      <Experience
-        odd
-        position="Web Developer/ Programmer"
-        company="Internship - Simplified Computing LLC"
-        time="Mar 2014 - June 2014"
-        image="/static/images/jobs/simplified-computing-logo.png"
-        alt="Simplified Computing Logo"
-      />
+      {config.map((we, index) => (
+        <Experience odd={index % 2} {...we} />
+      ))}
     </Section>
   );
 }

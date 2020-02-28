@@ -35,7 +35,6 @@ function Main() {
 }
 
 function App() {
-  console.log(process.env);
   return (
     <ThemeProvider theme={theme}>
       <Router>

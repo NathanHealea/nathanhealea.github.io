@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // --- Type and Styling Imports --- //
+import 'react-perfect-scrollbar/dist/css/styles.css';
 import 'typeface-roboto';
 import './index.css';
 
